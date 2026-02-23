@@ -19,14 +19,14 @@ const FinalCTASection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://k12.velzx.com"
+              href="https://k12.seatifyai.com"
               className="btn-premium w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-primary text-primary-foreground font-semibold text-base"
             >
               Explore School Admissions
               <ArrowRight size={18} />
             </a>
             <a
-              href="https://he.velzx.com"
+              href="https://he.seatifyai.com"
               className="btn-premium w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl border-2 border-white/20 text-white font-semibold text-base hover:bg-white hover:text-black transition-all"
             >
               Explore College Admissions

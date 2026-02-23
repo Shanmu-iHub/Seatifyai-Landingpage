@@ -21,10 +21,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="https://k12.velzx.com" className="text-[15px] font-semibold px-5 py-2.5 rounded-xl bg-black text-white hover:bg-black/90 transition-all active:scale-95">
+          <a href="https://k12.seatifyai.com" className="text-[15px] font-semibold px-5 py-2.5 rounded-xl bg-black text-white hover:bg-black/90 transition-all active:scale-95">
             School Admissions
           </a>
-          <a href="https://he.velzx.com" className="text-[15px] font-semibold px-5 py-2.5 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition-all active:scale-95">
+          <a href="https://he.seatifyai.com" className="text-[15px] font-semibold px-5 py-2.5 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition-all active:scale-95">
             Higher Education Admissions
           </a>
         </div>
@@ -48,8 +48,8 @@ const Navbar = () => {
               <a href="#features" onClick={() => setOpen(false)} className="text-[17px] leading-[25.5px] font-medium py-2 text-black">Features</a>
               <a href="#testimonials" onClick={() => setOpen(false)} className="text-[17px] leading-[25.5px] font-medium py-2 text-black">Testimonials</a>
               <div className="flex flex-col gap-2 pt-2">
-                <a href="https://k12.velzx.com" className="text-[17px] font-semibold text-center px-4 py-3 rounded-xl bg-black text-white">School Admissions</a>
-                <a href="https://he.velzx.com" className="text-[17px] font-semibold text-center px-4 py-3 rounded-xl bg-primary text-primary-foreground">Higher Education Admissions</a>
+                <a href="https://k12.seatifyai.com" className="text-[17px] font-semibold text-center px-4 py-3 rounded-xl bg-black text-white">School Admissions</a>
+                <a href="https://he.seatifyai.com" className="text-[17px] font-semibold text-center px-4 py-3 rounded-xl bg-primary text-primary-foreground">Higher Education Admissions</a>
               </div>
             </div>
           </motion.div>

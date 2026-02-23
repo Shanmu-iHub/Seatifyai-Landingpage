@@ -48,14 +48,14 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row items-center gap-4"
             >
               <a
-                href="https://k12.velzx.com"
+                href="https://k12.seatifyai.com"
                 className="btn-premium w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg shadow-lg shadow-primary/20"
               >
                 School Admissions
                 <ArrowRight size={20} />
               </a>
               <a
-                href="https://he.velzx.com"
+                href="https://he.seatifyai.com"
                 className="btn-premium w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-foreground text-foreground font-bold text-lg hover:bg-foreground hover:text-background"
               >
                 College & University Admissions

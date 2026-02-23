@@ -128,14 +128,14 @@ const NewHero = () => {
                         className="flex flex-col sm:flex-row items-center gap-5"
                     >
                         <a
-                            href="https://k12.velzx.com"
+                            href="https://k12.seatifyai.com"
                             className="group relative px-10 py-5 rounded-2xl bg-primary text-primary-foreground font-bold text-lg hover:shadow-[0_0_30px_rgba(255,184,0,0.4)] transition-all duration-300 flex items-center gap-3 overflow-hidden"
                         >
                             School Admissions
                             <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
-                            href="https://he.velzx.com"
+                            href="https://he.seatifyai.com"
                             className="px-10 py-5 rounded-2xl bg-white/5 text-white border border-white/10 font-bold text-lg hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-3 active:scale-95"
                         >
                             Higher Education

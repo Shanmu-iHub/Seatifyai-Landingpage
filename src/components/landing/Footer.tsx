@@ -17,8 +17,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-white mb-5 text-sm uppercase tracking-wider">Platforms</h4>
             <ul className="space-y-3">
-              <li><a href="https://k12.velzx.com" className="text-white/50 text-sm hover:text-primary transition-colors">School Admissions (K12)</a></li>
-              <li><a href="https://he.velzx.com" className="text-white/50 text-sm hover:text-primary transition-colors">College & University Admissions</a></li>
+              <li><a href="https://k12.seatifyai.com" className="text-white/50 text-sm hover:text-primary transition-colors">School Admissions (K12)</a></li>
+              <li><a href="https://he.seatifyai.com" className="text-white/50 text-sm hover:text-primary transition-colors">College & University Admissions</a></li>
             </ul>
           </div>
 
