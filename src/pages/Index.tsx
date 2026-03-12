@@ -8,10 +8,11 @@ import EntryPathsSection from "@/components/landing/EntryPathsSection";
 import TrustSection from "@/components/landing/TrustSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 import Footer from "@/components/landing/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background relative">
       <Navbar />
       <NewHero />
       <WhatIsSection />
@@ -22,6 +23,7 @@ const Index = () => {
       <TrustSection />
       <FinalCTASection />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 };
