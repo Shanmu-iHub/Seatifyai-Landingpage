@@ -65,8 +65,7 @@ const TrustSection = () => {
           className="text-center max-w-4xl mx-auto"
         >
           <h2 className="mb-4">
-            Built for Institutions.{" "}
-            <span className="text-primary">Designed for Students.</span>
+            Trusted by <span className="text-primary">Schools, Colleges & Universities</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             SeatifyAI is trusted by forward-thinking schools and colleges that want to modernize their admissions.
@@ -119,7 +118,8 @@ const TrustSection = () => {
               <div className="flex items-center gap-4">
                 <img
                   src={t.avatar}
-                  alt={t.name}
+                  alt="AI admission platform dashboard for seat booking and enrollment"
+                  loading="lazy"
                   className="w-14 h-14 rounded-full object-cover grayscale brightness-110"
                 />
                 <div>

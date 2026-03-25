@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Globe, Zap, ShieldCheck } from "lucide-react";
 
 const items = [
-  { icon: Globe, title: "Digital-First", desc: "Every step of the admission process is online — no paperwork, no queues." },
-  { icon: ShieldCheck, title: "Transparent", desc: "Real-time seat availability, eligibility checks, and clear fee structures." },
-  { icon: Zap, title: "Faster", desc: "What took weeks now takes minutes. Compare, apply, and confirm in one session." },
+  { icon: ShieldCheck, title: "Real-Time Seat Availability", desc: "Real-time seat availability, eligibility checks, and clear fee structures." },
+  { icon: Globe, title: "Transparent Admission Workflow", desc: "Every step of the admission process is online — no paperwork, no queues." },
+  { icon: Zap, title: "Easy Application & Enrollment", desc: "What took weeks now takes minutes. Compare, apply, and confirm in one session." },
 ];
 
 const WhatIsSection = () => {
@@ -17,7 +17,7 @@ const WhatIsSection = () => {
           viewport={{ once: true }}
           className="text-center max-w-2xl mx-auto mb-14"
         >
-          <h2 className="mb-4">What is SeatifyAI?</h2>
+          <h2 className="mb-4">One Platform for All Admissions</h2>
           <p className="text-muted-foreground text-lg">
             SeatifyAI is a unified admission marketplace where schools, colleges, and universities list their programs — and students find, compare, and secure seats digitally. One platform, thousands of options.
           </p>

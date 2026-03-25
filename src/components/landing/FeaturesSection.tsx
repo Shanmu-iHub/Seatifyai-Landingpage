@@ -20,7 +20,7 @@ const FeaturesSection = () => {
           viewport={{ once: true }}
           className="text-center max-w-2xl mx-auto mb-14"
         >
-          <h2 className="mb-4 text-white">Platform Highlights</h2>
+          <h2 className="mb-4 text-white">Smart AI-Based Admission Process</h2>
           <p className="text-white/70 text-lg">
             Everything you need for a smarter, faster admission experience.
           </p>

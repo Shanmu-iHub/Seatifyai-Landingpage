@@ -105,9 +105,8 @@ const NewHero = () => {
                         transition={{ duration: 0.7, delay: 0.1 }}
                         className="text-[2.5rem] sm:text-[3.5rem] lg:text-[4rem] font-bold leading-[1.1] tracking-tight text-white mb-8 max-w-6xl"
                     >
-                        One Unified Marketplace <br className="hidden md:block" />
-                        for K12 to UG & PG Admissions. <br className="hidden md:block" />
-                        <span className="text-primary italic">Zero Hassle with AI Process.</span>
+                        AI-Powered Admission Marketplace <br className="hidden md:block" />
+                        for K12, UG & PG
                     </motion.h1>
 
                     {/* Centered Subheading */}
@@ -117,7 +116,7 @@ const NewHero = () => {
                         transition={{ duration: 0.7, delay: 0.2 }}
                         className="text-white/60 text-[15px] md:text-xl leading-relaxed max-w-3xl mb-12"
                     >
-                        Seatify brings K–12 schools, colleges, and universities onto a single admission platform, replacing fragmented processes with one clear, transparent digital journey.
+                        SeatifyAI is an AI-powered admission marketplace designed to simplify K12, UG, and PG admissions. It allows students to discover, compare, and secure seats across institutions in one place. As a comprehensive student enrollment system and college admission portal, we handle everything from start to finish.
                     </motion.p>
 
                     {/* Buttons Group */}
@@ -131,14 +130,14 @@ const NewHero = () => {
                             href="https://k12.seatifyai.com"
                             className="group relative px-10 py-5 rounded-2xl bg-primary text-primary-foreground font-bold text-lg hover:shadow-[0_0_30px_rgba(255,184,0,0.4)] transition-all duration-300 flex items-center gap-3 overflow-hidden"
                         >
-                            School Admissions
+                            Find Your Seat
                             <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
                             href="https://he.seatifyai.com"
                             className="px-10 py-5 rounded-2xl bg-white/5 text-white border border-white/10 font-bold text-lg hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-3 active:scale-95"
                         >
-                            Higher Education
+                            Explore Programs
                             <ArrowRight size={22} />
                         </a>
                     </motion.div>
