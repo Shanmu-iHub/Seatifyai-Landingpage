@@ -24,6 +24,85 @@
 
   <link rel="icon" type="image/webp" href="/favicon.webp" />
 
+  <!-- Schema: Organization (Brand Identity in Google) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SeatifyAI",
+      "url": "https://seatifyai.com",
+      "logo": "https://seatifyai.com/og-image.png",
+      "description": "AI-powered admission marketplace for schools, colleges, and universities.",
+      "sameAs": [
+        "https://k12.seatifyai.com",
+        "https://he.seatifyai.com"
+      ]
+    }
+  </script>
+
+  <!-- Schema: WebSite (Triggers Sitelinks Search Box in Google) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SeatifyAI",
+      "url": "https://seatifyai.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://seatifyai.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+
+  <!-- Schema: SiteNavigationElement (Helps Google Understand Sub-Pages) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "SeatifyAI Navigation",
+      "itemListElement": [
+        {
+          "@type": "SiteNavigationElement",
+          "position": 1,
+          "name": "School Admissions (K12)",
+          "url": "https://k12.seatifyai.com"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 2,
+          "name": "College & University Admissions",
+          "url": "https://he.seatifyai.com"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 3,
+          "name": "Courses",
+          "url": "https://seatifyai.com/courses"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 4,
+          "name": "Institutions",
+          "url": "https://seatifyai.com/institutions"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 5,
+          "name": "About SeatifyAI",
+          "url": "https://seatifyai.com/about"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 6,
+          "name": "Contact Us",
+          "url": "https://seatifyai.com/contact"
+        }
+      ]
+    }
+  </script>
+
+  <!-- Schema: SoftwareApplication -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -31,9 +110,14 @@
       "name": "SeatifyAI",
       "applicationCategory": "EducationApplication",
       "operatingSystem": "Web",
-      "description": "AI-powered admission marketplace for schools, colleges, and universities."
+      "description": "AI-powered admission marketplace for schools, colleges, and universities.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
     }
-    </script>
+  </script>
 </head>
 
 <body>
