@@ -7,7 +7,6 @@ import FeaturesSection from "@/components/landing/FeaturesSection";
 import EntryPathsSection from "@/components/landing/EntryPathsSection";
 import TrustSection from "@/components/landing/TrustSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
-import SEOInternalLinks from "@/components/landing/SEOInternalLinks";
 import Footer from "@/components/landing/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -23,7 +22,6 @@ const Index = () => {
       <EntryPathsSection />
       <TrustSection />
       <FinalCTASection />
-      <SEOInternalLinks />
       <Footer />
       <WhatsAppButton />
     </main>
